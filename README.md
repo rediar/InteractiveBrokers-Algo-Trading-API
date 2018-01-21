@@ -5,6 +5,9 @@ Java/MySQL example of Interactive Brokers API for algorithmic trading. Includes 
 - I simultaneously run the price feed/other reading processes on IB Gateway paper trading (port 4002) and the trading strategy/other writing processes to TWS (port 7496)
 - API function documentation: http://interactivebrokers.github.io/tws-api/
 
+![Flowchart](https://github.com/rediar/InteractiveBrokers-Algo-System/blob/master/IB%20Algo%20Flowchart.png)
+
+
 # Set up MySQL database
 - set up the following tables
 - IBAlgoSystem.price: symbol (VARCHAR(10)), secType (VARCHAR(10)), currency (VARCHAR(3)), expiry (VARCHAR(8)), strike (DOUBLE), callorput (VARCHAR(1)), multiplier (VARCHAR(10)), bid (DOUBLE), ask (DOUBLE), last (DOUBLE), close (DOUBLE), bugCounter (INT), updateTime (BIGINT)
