@@ -31,7 +31,9 @@ Java/MySQL example of Interactive Brokers API for algorithmic trading. Includes 
 - Output option chain to IBAlgoSystem.MasterChainList
 
 # TradeStrategy
-- template to implement trade strategies
+- Template to implement trade strategies
+- Output order management to IBAlgoSystem.orderTracking
+- Output margin management to IBAlgoSystem.margin
 
 # KillSwitch
 - kills all active orders
