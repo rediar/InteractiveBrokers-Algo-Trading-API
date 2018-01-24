@@ -1,6 +1,6 @@
 # InteractiveBrokers-Algo-System
 Java/MySQL example of Interactive Brokers API for algorithmic trading. Includes live price feed, handling ib price quote limits, order tracking system, margin tracking system, order handling, option chain information request, and kill switch
-- Requires either TWS or IB Gateway. The API scripts initiate a live socket connection to the desktop TWS/IB Gateway application, which routes requests
+- Requires either TWS or IB Gateway and IB Java API 9.71. The API scripts initiate a live socket connection to the desktop TWS/IB Gateway application, which routes requests
 - Requires US Securities Snapshot and Futures Value Bundle ($10/month), US Equity and Options Add-On Streaming Bundle ($4.95/month)
 - I simultaneously run the price feed/other reading processes on IB Gateway paper trading (port 4002) and the trading strategy/other writing processes to TWS (port 7496)
 - API function documentation: http://interactivebrokers.github.io/tws-api/
